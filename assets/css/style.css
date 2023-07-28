@@ -123,6 +123,21 @@ html {
     letter-spacing: 2px;
 }
 
+/* ------------------------ Footer */
+footer{
+    background-color: var(--primary-color);
+    color:#fafafa;
+    min-height: 120px;
+    padding: 0;
+    margin:0;
+}
+.footer__section{
+    text-transform: uppercase;
+    font-family: 'Eco', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /* ------------------------ Hover.css */
 .hvr-sweep-to-bottom:before{
     background-color: rgba(159, 129, 112, 0.7);
