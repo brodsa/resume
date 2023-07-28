@@ -131,12 +131,64 @@ footer{
     padding: 0;
     margin:0;
 }
+
+.footer{
+    padding: 20px;
+}
+
 .footer__section{
-    text-transform: uppercase;
     font-family: 'Eco', sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
+
+.footer__title{
+    text-transform: uppercase;
+}
+
+.footer__text{
+    display: inline-block;
+}
+
+.footer__download i{
+    font-size: 18px;
+    color:#fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer__download:hover i {
+    color: #D95980;
+}
+
+.social__links{
+    padding-bottom: 15px;
+}
+
+.social__link a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: var(--secondary-color);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social__link a i:hover{
+    background: #D95980;
+}
+
 
 /* ------------------------ Hover.css */
 .hvr-sweep-to-bottom:before{
