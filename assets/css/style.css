@@ -24,6 +24,31 @@ html {
     background-color: var(--primary-color);
 }
 
+.row-table{
+    display: table;
+}
+
+.column-table{
+    display:table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section{
+    background-color: #fff;
+}
+
+.section__heading{
+    text-transform: uppercase;
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.subsection__heading{
+    text-transform: uppercase;
+}
 
 /* ------------------------ Header */
 
@@ -122,6 +147,55 @@ html {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+/* ------------------------ Three Reasons */
+.three-reasons__icon{
+   font-size: 26px;
+   color: #D95980;
+}
+.three-reasons__heading{
+    margin-bottom: 15px;
+}
+
+/* ------------------------ Personal Info */
+.personal-info{
+    background-color: var(--secondary-color);
+}
+
+.personal-info-item{
+    margin-bottom: 20px;
+    display: block;
+    clear:both;
+}
+
+.personal-info__key,
+.personal-info__value{
+    padding-left:8px;
+    display: inline-block;
+}
+
+.personal-info__key p,
+.personal-info__value p{
+    margin: 0;
+}
+
+.personal-info__key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info__key p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.personal-info__value{
+    position:relative;
+    width: 60%;
+}
+
 
 /* ------------------------ Footer */
 footer{
