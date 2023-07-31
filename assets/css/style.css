@@ -267,6 +267,35 @@ html {
     background-color: rgba(25,25,25,25,0.2);
 }
 
+/* ------------------------ Contact */
+.contact{
+    background-color: #fff;
+}
+
+.contact__heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Exo,sans-serif;
+    font-weight: 300;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+.contact__subheading{
+    text-align: center;
+}
+
+.contact__form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #F99B45;
+}
 
 /* ------------------------ Footer */
 footer{
@@ -339,4 +368,15 @@ footer{
 .hvr-sweep-to-bottom:before{
     background-color: rgba(159, 129, 112, 0.7);
     height: 120px;
+}
+
+/* ------------------------ Media Query */
+@media(min-width:992px) {
+    .contact__form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
 }

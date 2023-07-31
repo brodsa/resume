@@ -28,25 +28,25 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menu">
                             <li class="col-6 col-sm-3 list-inline-item menu__item menu__item-home">
-                                <a href="#" class="hvr-sweep-to-bottom menu_link">
+                                <a href="index.html" class="hvr-sweep-to-bottom menu_link">
                                     <i class="fa fa-home" aria-hidden="true"></i>
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item menu__item menu__item-resume">
-                                <a href="#" class=" hvr-sweep-to-bottom menu_link">
+                                <a href="resume.html" class=" hvr-sweep-to-bottom menu_link">
                                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                                     <span>Resume</span>
                                 </a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item menu__item menu__item-contact">
-                                <a href="#" class="hvr-sweep-to-bottom menu_link">
+                                <a href="contact.html" class="hvr-sweep-to-bottom menu_link">
                                     <i class="fa fa-comment-o" aria-hidden="true"></i>
                                     <span>Contact</span>
                                 </a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item menu__item menu__item-download">
-                                <a href="#" class="hvr-sweep-to-bottom menu_link">
+                                <a href="./assets/cv/SarkaGrubnerCV.pdf" class="hvr-sweep-to-bottom menu_link">
                                     <i class="fa fa-download" aria-hidden="true"></i>
                                     <span>Download</span>
                                 </a>
@@ -58,10 +58,27 @@
             </div>
         </div>
     </header>
-    <section>
-        <h3 class="header__subtitle"> LIFE PHILOSOPHY</h3>
-        <p class="header__text">
-            ...an outlier is a data point that highly differs from the data majority. Such a point is very interesting as it holds very special and unique information... So let's not be afraid of being the outlier!</p>
+    <section class="container-fluid contact">
+        <div class="row">
+            <div class="col">
+                <h3 class="contact__heading">Got a project in mind?</h3>
+                <h5 class="contact__subheading">Let's work together!</h5>
+
+                <div class="contact__form">
+                    <form action="">
+                        <input type="text" name="name" id="fname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                        <textarea rows=5  name="message" id="message" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
     </section>
     <footer class="container-fluid">
         <div class="row footer">
@@ -75,7 +92,7 @@
                 <h5 class="footer__title">Download</h5>
                 <p class="footer__text">
                     Download printable version of my CV here.
-                    <a href="#" target="_blank" class="footer__download" >
+                    <a href="./assets/cv/SarkaGrubnerCV.pdf" target="_blank" class="footer__download" >
                         <i class="fa fa-download" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
