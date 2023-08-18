@@ -124,6 +124,14 @@ html {
     background-color: #284E60;
 }
 
+.menu__item-interest{
+    background-color: #478C5C;
+}
+
+.menu__item-github{
+    background-color: #E1C340;
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -369,6 +377,8 @@ footer{
     background-color: rgba(159, 129, 112, 0.7);
     height: 120px;
 }
+
+div#map {min-height: 360px;}
 
 /* ------------------------ Media Query */
 @media(min-width:992px) {
