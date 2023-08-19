@@ -380,6 +380,7 @@ footer{
 
 div#map {min-height: 360px;}
 
+
 /* ------------------------ Media Query */
 @media(min-width:992px) {
     .contact__form{
